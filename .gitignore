@@ -1,0 +1,19 @@
+#ignore -
+#- all file with an extension pyc
+*.pyc 
+
+#- the python cache file
+__pycache__
+
+#- virtual enviroment
+wishenv/
+
+#- the database
+db.sqlite3
+chromedriver.exe
+#google cloud proxy server
+cloud_sql_proxy.exe
+.vscode
+.gcloudignore
+travel_credentials.json
+app.yaml
